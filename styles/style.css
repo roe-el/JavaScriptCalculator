@@ -1,11 +1,27 @@
 .btn {
     width: 44px;
     height: 32px;
+    margin: 4px 0px 4px 0px;
+}
+.add-button{
+	height:112px;
 }
 
-.row {
-    margin-top: 8px;
-}
-label{
+.calc-screen{
 	width:200px;
+	height:76px;*/
+}
+.main-input{
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.secondary-input{
+	font-size: 12px;
+	margin-top: 16px;
+	color:grey;
+}
+
+.calc-outline{
+
+	width:20%;
 }
