@@ -46,7 +46,6 @@ $(document).ready(function() {
         
         var math ='';
         math = eval($('.secondary-input').text());
-        console.log(math);
         $('.main-input').text(math);
         })
         //Numbers
@@ -80,5 +79,4 @@ $(document).ready(function() {
     $('.0-button').on('click', function() {
         $('.main-input').append('0');
     })
-
 });

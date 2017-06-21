@@ -1,3 +1,6 @@
+body{
+	margin-top: 16px;
+}
 .btn {
     width: 44px;
     height: 32px;
@@ -9,7 +12,8 @@
 
 .calc-screen{
 	width:200px;
-	height:76px;*/
+	height:76px;
+
 }
 .main-input{
 	font-size: 16px;
@@ -23,5 +27,18 @@
 
 .calc-outline{
 
-	width:20%;
+	width:250px;
+}
+table{
+	width:100%;
+}
+.calc-screen, .calc-outline{
+	border-style: solid;
+	border-color: black;
+	border-width:2px;
+}
+.btn{
+	border-style: solid;
+	border-color: black;
+	border-width:1px;
 }
