@@ -18,37 +18,46 @@
 <body>
     <div class='text-center'>
         <div class='well calc-outline center-block'>
-            <div class='well calc-screen  text-right'>
-                <div class='row'><span class='main-input'></span></div>
-                <div class='row'><span class='secondary-input'></span></div>
-            </div>
+            <div class='row title'>JavaScript Calculator</div>
+            <div class='well calc-screen center-block text-right'>
+                <div class='row main-input'></div>
+                <div class='row secondary-input'></div>
+            </div> 
             <div class='row'>
-                <div class='col-sm-3'>
-                    <button class='btn ac-button'>AC</button>
-                    <button class='btn 7-button'>7</button>
-                    <button class='btn 4-button'>4</button>
-                    <button class='btn 1-button'>1</button>
-                    <button class='btn 0-button'>0</button>
-                </div>
-                <div class='col-sm-3'>
-                    <button class='btn ce-button'>CE</button>
-                    <button class='btn 8-button'>8</button>
-                    <button class='btn 5-button'>5</button>
-                    <button class='btn 2-button'>2</button>
-                    <button class='btn dec-button'>.</button>
-                </div>
-                <div class='col-sm-3'>
-                    <button class='btn div-button'>/</button>
-                    <button class='btn 9-button'>9</button>
-                    <button class='btn 6-button'>6</button>
-                    <button class='btn 3-button'>3</button>
-                    <button class='btn eql-button'>=</button>
-                </div>
-                <div class='col-sm-3'>
-                    <button class='btn multiply-button'>x</button>
-                    <button class='btn subtract-button'>-</button>
-                    <button class='btn add-button'>+</button>
-                </div>
+               <table>
+                <tr>
+                    <td><button class='btn ac-button'>AC</button></td>
+                    <td><button class='btn ce-button'>CE</button></td>
+                    <td><button class='btn div-button'>/</button></td>
+                    <td><button class='btn multiply-button'>x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class='btn 7-button'>7</button></td>
+                    <td><button class='btn 8-button'>8</button></td>
+                    <td><button class='btn 9-button'>9</button></td>
+                    <td><button class='btn subtract-button'>-</button></td>   
+                </tr>
+
+                <tr>
+                    <td><button class='btn 4-button'>4</button></td>
+                    <td><button class='btn 5-button'>5</button></td>
+                    <td><button class='btn 6-button'>6</button></td>
+                    <td rowspan='3'><button class='btn add-button'>+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class='btn 1-button'>1</button></td>
+                    <td><button class='btn 2-button'>2</button></td>
+                    <td><button class='btn 3-button'>3</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class='btn 0-button'>0</button></td>
+                    <td><button class='btn dec-button'>.</button></td>
+                    <td><button class='btn eql-button'>=</button></td>
+                </tr>
+                </table>
             </div>
         </div>
 </body>
