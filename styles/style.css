@@ -1,5 +1,5 @@
 body{
-	margin-top: 16px;
+	background-color: #818181;
 }
 .btn {
     width: 44px;
@@ -11,6 +11,7 @@ body{
 }
 
 .calc-screen{
+	background-color: lightgrey;
 	width:200px;
 	height:76px;
 
@@ -26,7 +27,7 @@ body{
 }
 
 .calc-outline{
-
+	margin-top:10%;
 	width:250px;
 }
 table{
